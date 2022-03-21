@@ -12,6 +12,14 @@ https://gist.github.com/RomuloOliveira/71aceda5cb946f5ffdf7
 git branch -vvv | grep gone | grep -v master | cut -f 3 -d " " # | xargs git branch -D
 ```
 
+### Clone specific branch
+
+https://stackoverflow.com/questions/1911109/how-do-i-clone-a-specific-git-branch
+
+```shell
+git clone --single-branch --branch <branchname> <remote-repo>
+```
+
 ### Remove last pushed commit
 
 https://stackoverflow.com/questions/448919/how-can-i-remove-a-commit-on-github
