@@ -22,6 +22,10 @@ Patter Builder
 - https://stackoverflow.com/questions/21086417/builder-pattern-and-inheritance
 - https://www.baeldung.com/lombok-builder-inheritance
 
+Supprimer des éléments d'une liste/map dans une boucle for :
+- https://stackoverflow.com/questions/223918/iterating-through-a-collection-avoiding-concurrentmodificationexception-when-re
+  - https://stackoverflow.com/a/223929/13425151
+
 ## Bonnes pratiques
 
 Nombre de lignes dans une classe/une fonction
@@ -77,6 +81,10 @@ BeforeEach pour un groupe de tests
 
 Tests avec Cucumber
 - https://maven.apache.org/surefire-archives/surefire-3.0.0-M2/maven-surefire-plugin/examples/cucumber.html
+
+Liste de String dans un scénario Cucumber :
+- https://stackoverflow.com/questions/64366164/passing-list-of-strings-as-cucumber-parameter
+  - https://stackoverflow.com/a/64380567/13425151
 
 ## Maven
 
