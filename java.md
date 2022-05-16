@@ -26,6 +26,18 @@ Supprimer des éléments d'une liste/map dans une boucle for :
 - https://stackoverflow.com/questions/223918/iterating-through-a-collection-avoiding-concurrentmodificationexception-when-re
   - https://stackoverflow.com/a/223929/13425151
 
+Enum "subset" :
+- https://stackoverflow.com/questions/32479688/subset-of-enum-values-in-java
+
+Validation avec des enums :
+- https://www.baeldung.com/javax-validations-enums
+
+Check if a Path represents a file or folder :
+- https://stackoverflow.com/questions/12780446/check-if-a-path-represents-a-file-or-a-folder
+
+List files of a Path :
+- https://stackoverflow.com/questions/12780446/check-if-a-path-represents-a-file-or-a-folder
+
 ## Bonnes pratiques
 
 Nombre de lignes dans une classe/une fonction
@@ -52,6 +64,14 @@ Choisir le bon JDK en ligne de commande
 Java Doc
 - https://stackoverflow.com/questions/10088311/javadoc-return-tag-comment-duplication-necessary
 - https://stackoverflow.com/a/10088414/13425151
+
+Itérer sur les attributs d'une classe / éviter l'introspection :
+- https://stackoverflow.com/questions/3333974/how-to-loop-over-a-class-attributes-in-java
+  - https://stackoverflow.com/a/3333989/13425151
+
+Paths.get vs Path.of :
+- https://stackoverflow.com/questions/58631724/paths-get-vs-path-of
+  - https://stackoverflow.com/a/58631951/13425151
 
 ## Tests
 
@@ -101,12 +121,33 @@ Maven pom > dependency > optional
 Projet multi-module
 - https://www.baeldung.com/maven-multi-module-project-java-jpms
 
+Change version in multi-module maven project
+- https://stackoverflow.com/questions/5726291/updating-version-numbers-of-modules-in-a-multi-module-maven-project
+  - https://stackoverflow.com/a/5726599/13425151
+
 ## Spring
 
 Properties
 - https://www.baeldung.com/java-properties
+- https://docs.spring.io/spring-boot/docs/current/reference/html/application-properties.html#application-properties.core.logging.pattern.console
 - https://stackoverflow.com/questions/34845990/spring-use-one-application-properties-for-production-and-another-for-debug#34846351
 - https://stackoverflow.com/questions/36415599/how-to-unit-test-the-class-that-reads-properties-file
+
+Logging
+- https://docs.spring.io/spring-boot/docs/current/reference/html/features.html#features.logging
+- https://www.baeldung.com/spring-boot-logging
+- https://blog.engineering.publicissapient.fr/2010/07/07/java-en-production-les-fichiers-de-logs/
+- https://howtodoinjava.com/spring-boot2/logging/multiple-log-files/
+- https://www.baeldung.com/java-logging-rolling-file-appenders
+- https://www.codejava.net/frameworks/spring-boot/logback-rolling-files-example
+- https://stackoverflow.com/questions/39103771/spring-boot-multiple-log-files
+- https://stackoverflow.com/questions/42525987/spring-boot-logging-into-multiple-files
+- https://stackoverflow.com/questions/49925150/logback-xml-to-logback-property-file
+  - https://docs.spring.io/spring-boot/docs/2.0.1.RELEASE/reference/html/boot-features-logging.html
+  - https://docs.spring.io/spring-boot/docs/2.0.1.RELEASE/reference/html/howto-logging.html
+  - https://www.logicbig.com/tutorials/spring-framework/spring-boot/logging-file.html
+- https://stackoverflow.com/questions/50253424/springboot-with-logback-creating-log-file-is-undefined-folder
+
 
 Tests avec Spring Boot
 - https://gitlab.insee.fr/animation-developpement/ateliers/spring-boot-tests
