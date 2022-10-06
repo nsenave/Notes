@@ -40,6 +40,13 @@ List files of a Path :
 
 ## Bonnes pratiques
 
+About debug log and performance :
+- https://stackoverflow.com/questions/43284499/does-log-debug-decrease-performance
+- https://stackoverflow.com/questions/10428447/log-debug-enabled-check-in-java
+
+String format vs. concatenation :
+- https://stackoverflow.com/questions/925423/is-it-better-practice-to-use-string-format-over-string-concatenation-in-java
+
 Nombre de lignes dans une classe/une fonction
 - https://stackoverflow.com/questions/107855/maximum-lines-of-code-permitted-in-a-java-class#107911
 - https://dzone.com/articles/rule-30-%E2%80%93-when-method-class-or
@@ -98,6 +105,9 @@ Tester les méhodes privées ?
 BeforeEach pour un groupe de tests
 - https://stackoverflow.com/questions/1548462/junit-before-only-for-some-test-methods
 - https://stackoverflow.com/a/58605274/13425151
+
+Héritage & classes de test
+- https://www.petrikainulainen.net/programming/unit-testing/3-reasons-why-we-should-not-use-inheritance-in-our-tests/
 
 Tests avec Cucumber
 - https://maven.apache.org/surefire-archives/surefire-3.0.0-M2/maven-surefire-plugin/examples/cucumber.html
