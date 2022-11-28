@@ -38,6 +38,10 @@ Check if a Path represents a file or folder :
 List files of a Path :
 - https://stackoverflow.com/questions/12780446/check-if-a-path-represents-a-file-or-a-folder
 
+"Concaténer" des InputStream :
+- https://stackoverflow.com/questions/760228/how-do-you-merge-two-input-streams-in-java
+  - https://stackoverflow.com/a/760340/13425151
+
 ## Bonnes pratiques
 
 About debug log and performance :
