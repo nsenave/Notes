@@ -22,3 +22,7 @@ Skip a task
 
 File trees
 - https://docs.gradle.org/current/userguide/gradle_wrapper.html
+
+Get project version in console
+- https://stackoverflow.com/questions/24936781/gradle-plugin-project-version-number
+- https://stackoverflow.com/questions/44466728/gradle-project-version-from-build-gradle-via-shell-bash-script
