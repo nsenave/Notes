@@ -40,3 +40,7 @@ https://stackoverflow.com/questions/52195877/how-can-i-fix-git-commit-error-wait
 ```shell
 git config --global core.editor "'C:\Users\user\AppData\Local\Programs\Microsoft VS Code\Code.exe' -n -w"
 ```
+
+### Change the author of commit
+
+https://stackoverflow.com/questions/3042437/how-to-change-the-commit-author-for-a-single-commit

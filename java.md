@@ -5,6 +5,9 @@
 Lire des CSV
 - https://www.geeksforgeeks.org/reading-csv-file-java-using-opencsv/
 
+Valider du XML à partir de XSD
+- https://www.digitalocean.com/community/tutorials/how-to-validate-xml-against-xsd-in-java
+
 Liste d'entiers consécutifs
 - https://www.baeldung.com/java-listing-numbers-within-a-range
 
@@ -41,6 +44,12 @@ List files of a Path :
 "Concaténer" des InputStream :
 - https://stackoverflow.com/questions/760228/how-do-you-merge-two-input-streams-in-java
   - https://stackoverflow.com/a/760340/13425151
+
+Annotations / ContraintValidator
+- https://stackoverflow.com/questions/28768577/how-to-test-a-validator-which-implements-constraintvalidator-in-java
+
+Switch expression on Java 17
+- https://blog.adamgamboa.dev/switch-expression-on-java-17/
 
 ## Bonnes pratiques
 
@@ -120,6 +129,14 @@ Liste de String dans un scénario Cucumber :
 - https://stackoverflow.com/questions/64366164/passing-list-of-strings-as-cucumber-parameter
   - https://stackoverflow.com/a/64380567/13425151
 
+## Performances
+
+Glowroot
+- https://glowroot.org/
+
+VisualVM
+- https://visualvm.github.io/
+
 ## Maven
 
 Maven Surefire Plugin
@@ -139,6 +156,12 @@ Change version in multi-module maven project
 - https://stackoverflow.com/questions/5726291/updating-version-numbers-of-modules-in-a-multi-module-maven-project
   - https://stackoverflow.com/a/5726599/13425151
 
+Publish on Maven Central
+- https://maven.apache.org/repository/guide-central-repository-upload.html
+- https://central.sonatype.org/publish/requirements/
+- https://central.sonatype.org/publish/publish-guide/
+- https://central.sonatype.org/publish/#individual-projects-open-source-software-repository-hosting-ossrh
+
 ## Spring
 
 Properties
@@ -146,6 +169,10 @@ Properties
 - https://docs.spring.io/spring-boot/docs/current/reference/html/application-properties.html#application-properties.core.logging.pattern.console
 - https://stackoverflow.com/questions/34845990/spring-use-one-application-properties-for-production-and-another-for-debug#34846351
 - https://stackoverflow.com/questions/36415599/how-to-unit-test-the-class-that-reads-properties-file
+
+Add build properties in application properties
+- https://www.baeldung.com/spring-boot-build-properties
+- https://stackoverflow.com/questions/2712970/get-maven-artifact-version-at-runtime/63360815#63360815
 
 Logging
 - https://docs.spring.io/spring-boot/docs/current/reference/html/features.html#features.logging
@@ -162,9 +189,11 @@ Logging
   - https://www.logicbig.com/tutorials/spring-framework/spring-boot/logging-file.html
 - https://stackoverflow.com/questions/50253424/springboot-with-logback-creating-log-file-is-undefined-folder
 
-
 Tests avec Spring Boot
 - https://gitlab.insee.fr/animation-developpement/ateliers/spring-boot-tests
+
+REST Exceptions handling
+- https://www.baeldung.com/exception-handling-for-rest-with-spring
 
 Maven / Spring profiles
 - https://www.baeldung.com/maven-profiles
@@ -175,3 +204,13 @@ Maven / Spring profiles
 - https://stackoverflow.com/questions/38970146/how-to-exclude-default-application-properties-add-custom-properties-file-using-p
 - https://stackoverflow.com/questions/25385444/loading-properties-based-on-maven-profiles
 - https://stackoverflow.com/questions/11824328/default-build-profile-for-maven
+
+Spring boot run vs executable jar
+- https://www.baeldung.com/spring-boot-run-maven-vs-executable-jar
+
+## Reflection
+
+Note : conseil sur l'introspection en java : ne pas en faire (i.e. chercher plus simple)
+
+Get the content type of a list using reflecion
+- https://stackoverflow.com/questions/14402585/how-do-you-get-listtype-with-reflection

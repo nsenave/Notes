@@ -1,5 +1,8 @@
 # Gradle
 
+Comparison with Maven lifecycle:
+- https://docs.gradle.org/current/userguide/migrating_from_maven.html#migmvn:build_lifecycle
+
 Gradle Wrapper in remote ? (yes)
 - https://stackoverflow.com/questions/43954932/should-i-gitignore-my-gradlew
 - https://docs.gradle.org/current/userguide/gradle_wrapper.html
@@ -27,6 +30,8 @@ Get project version in console
 - https://stackoverflow.com/questions/24936781/gradle-plugin-project-version-number
 - https://stackoverflow.com/questions/44466728/gradle-project-version-from-build-gradle-via-shell-bash-script
 
+Script way: `./gradlew properties --no-daemon --console=plain -q | grep "^version:" | awk '{printf $2}'`
+
 Gradle properties / user properties
 - https://stackoverflow.com/questions/21762180/should-you-include-or-ignore-gradle-wrapper-properties
   - https://stackoverflow.com/a/21762567/13425151
@@ -41,3 +46,36 @@ Gradle properties / user properties
 "Permission denied" with wrapper
 - https://stackoverflow.com/questions/17668265/gradlew-permission-denied
   - https://stackoverflow.com/a/17669566/13425151
+
+Spring Boot app remove the "-plain" jar
+- https://stackoverflow.com/questions/67663728/spring-boot-2-5-0-generates-plain-jar-file-can-i-remove-it
+  - https://stackoverflow.com/a/67663956/13425151
+- https://docs.spring.io/spring-boot/docs/current/gradle-plugin/reference/htmlsingle/#packaging-executable.and-plain-archives
+  - (Don't do that if you want to make a native image) https://github.com/spring-projects/spring-boot/issues/33238
+
+Gradle property at runtime in Java through application.properties
+- https://stackoverflow.com/questions/40017216/add-gradle-properties-to-application-properties-resource
+- https://docs.spring.io/spring-boot/docs/2.0.0.M3/reference/html/howto-properties-and-configuration.html#howto-automatic-expansion-gradle
+- https://docs.gradle.org/current/dsl/org.gradle.language.jvm.tasks.ProcessResources.html
+- https://www.baeldung.com/spring-boot-auto-property-expansion
+- https://github.com/eugenp/tutorials/tree/master/spring-boot-modules/spring-boot-property-exp/property-exp-default-config
+
+### Publish on maven central
+
+Publish your Gradle artifact to Maven Central (Medium)
+- https://h4pehl.medium.com/publish-your-gradle-artifacts-to-maven-central-f74a0af085b1
+
+Gradle maven publish plugin (generated pom etc.)
+- https://docs.gradle.org/current/userguide/publishing_maven.html
+
+### Alternatives to maven central
+
+Bintray was a popular open-source hosting service for storing Java libraries, packages, and components that ended on May 1, 2021. 
+- https://blog.jetbrains.com/idea/2021/04/migration-from-bintray/
+
+JetBrain / IntelliJ Space Packages
+- https://blog.jetbrains.com/space/2020/01/14/introducing-space-packages/
+
+https://docs.github.com/en/actions/publishing-packages/publishing-java-packages-with-gradle
+https://www.jetbrains.com/help/idea/add-a-gradle-library-to-the-maven-repository.html
+https://entzik.medium.com/how-to-publish-open-source-java-libraries-to-maven-central-70f9232462f5
