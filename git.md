@@ -12,6 +12,17 @@ https://gist.github.com/RomuloOliveira/71aceda5cb946f5ffdf7
 git branch -vvv | grep gone | grep -v master | cut -f 3 -d " " # | xargs git branch -D
 ```
 
+### Find local branches that has no remote
+
+https://stackoverflow.com/questions/15661853/list-all-local-branches-without-a-remote
+
+https://stackoverflow.com/a/31776247/13425151
+
+```shell
+git branch --format "%(refname:short) %(upstream)"
+git branch --format "%(refname:short) %(upstream)" | awk '{if (!$2) print $1;}'
+```
+
 ### Clone specific branch
 
 https://stackoverflow.com/questions/1911109/how-do-i-clone-a-specific-git-branch
@@ -44,3 +55,8 @@ git config --global core.editor "'C:\Users\user\AppData\Local\Programs\Microsoft
 ### Change the author of commit
 
 https://stackoverflow.com/questions/3042437/how-to-change-the-commit-author-for-a-single-commit
+
+### On commit granularity
+
+- https://kennyballou.com/blog/2021/03/commit-granularity/index.html#org241ce3d
+- https://gitforteams.com/resources/commit-granularity.html

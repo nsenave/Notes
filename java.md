@@ -93,6 +93,15 @@ Paths.get vs Path.of :
 - https://stackoverflow.com/questions/58631724/paths-get-vs-path-of
   - https://stackoverflow.com/a/58631951/13425151
 
+Implémentation d'une interface qui ne renvoie pas l'exception déclarée par l'interface
+- https://stackoverflow.com/questions/15607060/java-interface-throws-an-exception-but-interface-implementation-does-not-throw-a
+  - https://stackoverflow.com/a/15607110/13425151
+
+Checked vs unchecked exception 
+- https://stackoverflow.com/questions/54454681/custom-exception-should-be-a-checked-exception-or-runtime-exception
+- https://stackoverflow.com/questions/36663425/custom-exception-class-shall-i-extend-runtime-exception-or-exception
+- https://stackoverflow.com/questions/2190161/difference-between-java-lang-runtimeexception-and-java-lang-exception
+
 ## Tests
 
 Tests avec junit5
