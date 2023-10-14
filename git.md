@@ -23,6 +23,16 @@ git branch --format "%(refname:short) %(upstream)"
 git branch --format "%(refname:short) %(upstream)" | awk '{if (!$2) print $1;}'
 ```
 
+### Remove tags that no longer are in remote
+
+https://stackoverflow.com/questions/1841341/remove-local-git-tags-that-are-no-longer-on-the-remote-repository
+
+https://stackoverflow.com/a/54297675/13425151
+
+```shell
+git fetch --prune --prune-tags
+```
+
 ### Clone specific branch
 
 https://stackoverflow.com/questions/1911109/how-do-i-clone-a-specific-git-branch
