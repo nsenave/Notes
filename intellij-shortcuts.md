@@ -11,3 +11,7 @@
 - Alt+Clic : curseur à plusieurs endroits
 - sout -> System.out.println()
 - psvm -> crée une méthode public static void main(...)
+- Ctrl + Alt + F7 : Show usages
+- Ctrl + E : fichiers parcourus récemment
+- Ctrl + Alt + N : Inline variable
+- Ctrl + Maj + Up/Down : move current line up/down
