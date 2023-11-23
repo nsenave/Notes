@@ -4,6 +4,7 @@
 - Ctrl+W : étendre la sélection
 - Maj+F6 : Renommer (quoi que ce soit)
 - F4 : remonter à la source d'une classe/méthode ou d'une variable
+- Ctrl + Alt + O : optimize imports
 - Alt+F7 : View usages
 - Ctrl+Maj+F8 : Voir tous mes breakpoints
 - Ctrl+Alt+V : extract variable
