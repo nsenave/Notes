@@ -198,6 +198,9 @@ Logging
   - https://www.logicbig.com/tutorials/spring-framework/spring-boot/logging-file.html
 - https://stackoverflow.com/questions/50253424/springboot-with-logback-creating-log-file-is-undefined-folder
 
+Logging WebClient / HttpClient calls:
+- https://www.baeldung.com/spring-log-webclient-calls
+
 Tests avec Spring Boot
 - https://gitlab.insee.fr/animation-developpement/ateliers/spring-boot-tests
 
