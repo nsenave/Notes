@@ -60,6 +60,65 @@ Gradle property at runtime in Java through application.properties
 - https://www.baeldung.com/spring-boot-auto-property-expansion
 - https://github.com/eugenp/tutorials/tree/master/spring-boot-modules/spring-boot-property-exp/property-exp-default-config
 
+### Use a private maven repo
+
+- `gradle.properties`
+
+```
+systemProp.urlMavenRepo="https://repo.mycompany.com/releases"
+```
+
+- `settings.gradle`
+
+```groovy
+dependencyResolutionManagement {
+
+    repositories {
+        // Config for maven central repository
+        mavenCentral()
+        // Config for maven snapshot repositories
+        maven {
+            url "https://oss.sonatype.org/content/repositories/snapshots"
+            mavenContent {
+                snapshotsOnly()
+            }
+        }
+        maven { // Note: see https://central.sonatype.org/news/20210223_new-users-on-s01/
+            url "https://s01.oss.sonatype.org/content/repositories/snapshots"
+            mavenContent {
+                snapshotsOnly()
+            }
+        }
+        // Config for private maven repository
+        maven {
+            url System.properties['urlMavenRepo']
+        }
+        // Config for local maven dependencies
+        mavenLocal()
+    }
+
+}
+```
+
+Bonus: Use a local gradle properties file if you don't want to commit the url of your private repo:
+
+- `build.gradle`
+
+```groovy
+plugins {
+
+    // Plugin to use local gradle properties file
+    id 'net.saliman.properties' version '1.5.2'
+
+}
+```
+
+- `gradle-local.properties`
+
+```
+systemProp.urlMavenRepo="https://actual-repo.my-actual-company.com/releases"
+```
+
 ### Publish on maven central
 
 Publish your Gradle artifact to Maven Central (Medium)
