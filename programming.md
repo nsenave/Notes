@@ -1,5 +1,11 @@
 # General notes on programming
 
+### Writing Code
+
+> Software Developers have two audiences. The first is the compiler and runtime, after all a piece of software that won’t compile or run, or worse do the wrong thing when running, is useless. But the far more important audience is _the next developer who has to read or edit the code_.
+
+https://medium.com/@hart-michael/writing-code-is-the-same-thing-as-writing-prose-ba8d04ed6917
+
 ### Open/Closed Principle
 
 http://joelabrahamsson.com/a-simple-example-of-the-openclosed-principle/
