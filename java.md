@@ -51,6 +51,9 @@ Annotations / ContraintValidator
 Switch expression on Java 17
 - https://blog.adamgamboa.dev/switch-expression-on-java-17/
 
+Lambda effectively final local variables
+- https://www.baeldung.com/java-lambda-effectively-final-local-variables
+
 ## Bonnes pratiques
 
 About debug log and performance :
