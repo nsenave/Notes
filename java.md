@@ -53,6 +53,7 @@ Switch expression on Java 17
 
 Lambda effectively final local variables
 - https://www.baeldung.com/java-lambda-effectively-final-local-variables
+- https://stackoverflow.com/questions/34865383/variable-used-in-lambda-expression-should-be-final-or-effectively-final
 
 ## Bonnes pratiques
 
