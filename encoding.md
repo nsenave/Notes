@@ -1,5 +1,25 @@
 # Some notes about encoding
 
+Characters and encodings....
+- http://www.sebsauvage.net/comprendre/ascii/
+- https://stackoverflow.com/questions/700187/unicode-utf-ascii-ansi-format-differences
+- https://softwareengineering.stackexchange.com/questions/97247/what-is-the-advantage-of-choosing-ascii-encoding-over-utf-8
+- https://betterexplained.com/articles/unicode/
+- https://www.ascii-code.com/fr
+- https://www.utf8-chartable.de/
+- https://www.fileformat.info/info/charset/UTF-8/list.htm
+- https://www.fileformat.info/info/charset/UTF-8/list.htm?start=34917
+- https://www.codetable.net
+- https://www.codetable.net/decimal/1048576
+- https://www.baeldung.com/cs/unicode-character-bytes#utf-8-encoding
+- https://stackoverflow.com/questions/5290182/how-many-bytes-does-one-unicode-character-take
+- https://unicodesnowmanforyou.com/
+
+About the BOM thing...
+- https://stackoverflow.com/questions/2223882/whats-the-difference-between-utf-8-and-utf-8-with-bom
+
+> TLDR: "Encodings should be known, not divined."
+
 Not 8-bit clean encodings: Base64, UTF-7
 
 - https://en.wikipedia.org/wiki/Base64
