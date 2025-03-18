@@ -12,3 +12,7 @@ Branch/fork and pull request:
   - https://softwareengineering.stackexchange.com/a/370469
 
 > deleting old branches after a merge is perfectly safe
+
+GitHub flavored markdown: https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
+
+Mermaid diagrams in github: https://stackoverflow.com/questions/58737436/how-to-create-a-good-looking-notification-or-warning-box-in-github-flavoured-mar

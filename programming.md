@@ -27,3 +27,21 @@ https://stackoverflow.com/questions/2056/what-are-mvp-and-mvc-and-what-is-the-di
 ### ACID Transactions
 
 https://www.databricks.com/glossary/acid-transactions
+
+## Foo bar etc.
+
+- https://stackoverflow.com/questions/34212049/meaning-of-foo-bar-baz-etc
+- https://en.wikipedia.org/wiki/Metasyntactic_variable
+- https://en.wikipedia.org/wiki/Foobar
+
+## Some programming languages
+
+Awk
+Bash
+C++
+D
+Elixir
+F#
+Golang
+Haskell
+Idris

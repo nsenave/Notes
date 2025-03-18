@@ -23,3 +23,11 @@ Accredited Registrars France
 
 Buy a domain with Google Domain
 https://support.google.com/domains/answer/4491208?hl=en
+
+## Http header nosniff
+
+- https://stackoverflow.com/questions/18337630/what-is-x-content-type-options-nosniff
+  - https://stackoverflow.com/a/37201425/13425151
+  - https://stackoverflow.com/a/18337753/13425151
+- https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Content-Type-Options
+  - https://developer.mozilla.org/fr/docs/Web/HTTP/Headers/X-Content-Type-Options

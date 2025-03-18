@@ -60,6 +60,15 @@ Gradle property at runtime in Java through application.properties
 - https://www.baeldung.com/spring-boot-auto-property-expansion
 - https://github.com/eugenp/tutorials/tree/master/spring-boot-modules/spring-boot-property-exp/property-exp-default-config
 
+Migrate to Kotlin DSL from Groovy DSL
+- https://docs.gradle.org/8.10/userguide/migrating_from_groovy_to_kotlin_dsl.html#configuring-tasks
+
+Testing in Java & JVM projects
+- https://docs.gradle.org/current/userguide/java_testing.html
+
+Multimodule project Jacoco code coverage
+- https://docs.gradle.org/current/samples/sample_jvm_multi_project_with_code_coverage_distribution.html
+
 ### Use a private maven repo
 
 - `gradle.properties`

@@ -32,6 +32,10 @@ Supprimer des éléments d'une liste/map dans une boucle for :
 Enum "subset" :
 - https://stackoverflow.com/questions/32479688/subset-of-enum-values-in-java
 
+Compare enum values
+- https://stackoverflow.com/questions/1750435/comparing-java-enum-members-or-equals
+  - https://wiki.c2.com/?CompareConstantsFromTheLeft
+
 Validation avec des enums :
 - https://www.baeldung.com/javax-validations-enums
 
@@ -54,6 +58,9 @@ Switch expression on Java 17
 Lambda effectively final local variables
 - https://www.baeldung.com/java-lambda-effectively-final-local-variables
 - https://stackoverflow.com/questions/34865383/variable-used-in-lambda-expression-should-be-final-or-effectively-final
+
+https://stackoverflow.com/questions/6129805/what-is-the-fastest-java-collection-with-the-basic-functionality-of-a-queue
+TLDR: ArrayDeque
 
 ## Bonnes pratiques
 
@@ -169,6 +176,11 @@ Change version in multi-module maven project
 - https://stackoverflow.com/questions/5726291/updating-version-numbers-of-modules-in-a-multi-module-maven-project
   - https://stackoverflow.com/a/5726599/13425151
 
+Print property of the pom.xml in command line:
+- https://stackoverflow.com/questions/23802951/get-pom-xml-property-from-commandline
+  - `echo "version=$(mvn help:evaluate -Dexpression=some.property -q -DforceStdout)"`
+
+
 Publish on Maven Central
 - https://maven.apache.org/repository/guide-central-repository-upload.html
 - https://central.sonatype.org/publish/requirements/
@@ -205,6 +217,9 @@ Logging
 Logging WebClient / HttpClient calls:
 - https://www.baeldung.com/spring-log-webclient-calls
 
+Spring Web MVC
+- https://docs.spring.io/spring-framework/reference/web/webflux-webclient/client-synchronous.html
+
 Tests avec Spring Boot
 - https://gitlab.insee.fr/animation-developpement/ateliers/spring-boot-tests
 
@@ -223,6 +238,18 @@ Maven / Spring profiles
 
 Spring boot run vs executable jar
 - https://www.baeldung.com/spring-boot-run-maven-vs-executable-jar
+
+Spring and Tomcat: 
+
+> Spring Boot comes with an embedded Tomcat server, making the integration of the two technologies seamless. 
+> This means developers can run Spring Boot applications as standalone Java applications 
+> without needing a separate Tomcat installation.
+
+MultipartFile, ByteArrayResource etc
+- https://docs.spring.io/spring-boot/how-to/http-clients.html
+- https://stackoverflow.com/questions/52818107/how-to-send-the-multipart-file-and-json-data-to-spring-boot
+- https://stackoverflow.com/questions/56287405/can-we-get-filename-from-bytearrayresource
+- https://stackoverflow.com/questions/42416015/spring-boot-multipartfile-issue-with-bytearrayresource
 
 ## Reflection
 

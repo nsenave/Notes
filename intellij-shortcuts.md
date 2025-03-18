@@ -1,18 +1,25 @@
 # IntelliJ shortcuts I use everyday
 
+- Shift Shift : search everywhere
+- Alt + Entrée : suggestion IntelliJ
 - Ctrl+D : dupliquer la ligne
 - Ctrl+W : étendre la sélection
 - Maj+F6 : Renommer (quoi que ce soit)
+- Ctrl+Alt+V : extract variable
+- Ctrl+Alt+M : extract method
 - F4 : remonter à la source d'une classe/méthode ou d'une variable
+- Ctrl + Shift + I : voir la source d'une classe/méthode sans ouvrir d'onglet
+- Ctrl + E : fichiers parcourus récemment
 - Ctrl + Alt + O : optimize imports
 - Alt+F7 : View usages
 - Ctrl+Maj+F8 : Voir tous mes breakpoints
-- Ctrl+Alt+V : extract variable
-- Ctrl+Alt+M : extract method
 - Alt+Clic : curseur à plusieurs endroits
 - sout -> System.out.println()
-- psvm -> crée une méthode public static void main(...)
+- psvm (ou juste 'main' depuis récemment) -> crée une méthode public static void main(...)
 - Ctrl + Alt + F7 : Show usages
-- Ctrl + E : fichiers parcourus récemment
 - Ctrl + Alt + N : Inline variable
 - Ctrl + Maj + Up/Down : move current line up/down
+- Ctrl + Maj + T : jump to / create test class
+- Ctrl + Shift + F7 sur une exception : hilight lines that can throw this exception
+- alt J : ajouter l'élément identique suivant à la sélection
+- ctrl alt t : mettre le code selectionné dans un bloc (if, try/catch, etc.)
