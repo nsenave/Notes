@@ -47,6 +47,16 @@ Validate keyboard input
 - https://stackoverflow.com/questions/15228388/input-validation-using-scanf
 - https://openclassrooms.com/fr/courses/19980-apprenez-a-programmer-en-c/16993-securisez-la-saisie-de-texte
 
+## Headers
+
+https://stackoverflow.com/questions/1804486/should-i-use-include-in-headers
+
+## VS Code
+
+https://code.visualstudio.com/docs/cpp/config-mingw
+
+https://code.visualstudio.com/docs/cpp/configure-intellisense
+
 ---
 
 ## Trivia
@@ -56,3 +66,14 @@ Bitwise addition
 
 1 Byte = 8 bits
 - https://stackoverflow.com/questions/13615764/is-a-byte-always-8-bits
+
+---
+
+https://stackoverflow.com/questions/30811325/read-from-stdin-with-fgets-bug-if-input-is-greater-than-size
+
+https://stackoverflow.com/questions/9278226/which-is-the-best-way-to-get-input-from-user-in-c
+
+https://stackoverflow.com/questions/12998258/input-validation-in-c
+
+https://learn.microsoft.com/fr-fr/cpp/c-runtime-library/reference/fgets-fgetws?view=msvc-170
+https://en.cppreference.com/w/c/io/fgets
