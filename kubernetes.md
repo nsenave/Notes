@@ -13,3 +13,8 @@ Autres articles phoenixnap.com :
 
 Log rotation in Kubernetes:
 - https://kubernetes.io/docs/concepts/cluster-administration/logging/#log-rotation
+
+Which Linux OS runs on pod
+```bash
+kubectl exec -it <pod> -- /bin/bash -c "cat /etc/os-release;uname -r"
+```
