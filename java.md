@@ -103,6 +103,7 @@ Itérer sur les attributs d'une classe / éviter l'introspection :
 Paths.get vs Path.of :
 - https://stackoverflow.com/questions/58631724/paths-get-vs-path-of
   - https://stackoverflow.com/a/58631951/13425151
+- https://www.baeldung.com/java-paths-get-path-of
 
 Implémentation d'une interface qui ne renvoie pas l'exception déclarée par l'interface
 - https://stackoverflow.com/questions/15607060/java-interface-throws-an-exception-but-interface-implementation-does-not-throw-a
