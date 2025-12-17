@@ -18,3 +18,10 @@ Which Linux OS runs on pod
 ```bash
 kubectl exec -it <pod> -- /bin/bash -c "cat /etc/os-release;uname -r"
 ```
+
+Show current namespace
+- https://stackoverflow.com/questions/55853977/how-to-get-the-current-namespace-of-current-context-using-kubectl
+  - https://stackoverflow.com/a/58636574
+```
+kubectl config view | grep namespace
+```
