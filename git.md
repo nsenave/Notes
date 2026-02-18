@@ -70,3 +70,9 @@ https://stackoverflow.com/questions/3042437/how-to-change-the-commit-author-for-
 
 - https://kennyballou.com/blog/2021/03/commit-granularity/index.html#org241ce3d
 - https://gitforteams.com/resources/commit-granularity.html
+
+### Diff of staged files
+
+```bash
+git diff --staged
+```
