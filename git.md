@@ -1,5 +1,23 @@
 # Git
 
+### Git alias
+
+Examples:
+
+- Add all, commit and push
+
+```shell
+git config --global alias.acp '!f() { git add . && git commit -m "$1" && git push; }; f'
+git acp "some commit message"
+```
+
+- Switch user between contexts
+
+```shell
+git config --global alias.somecontext "!git config user.name 'My name' && git config user.email 'my.email@example.com'"
+git somecontext
+```
+
 ### Local / global settings
 
 https://stackoverflow.com/questions/42167345/git-set-local-user-name-and-user-email-different-for-each-repo
