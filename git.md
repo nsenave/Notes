@@ -1,5 +1,21 @@
 # Git
 
+### Diff between two branches
+
+simply
+
+```shell
+git diff <branch1> <branch2>
+```
+
+### misc
+
+```shell
+git show --format="%aN <%aE>" <sha>
+
+git show --no-patch --format=%ci <sha>
+```
+
 ### Git alias
 
 Examples:
@@ -7,7 +23,7 @@ Examples:
 - Add all, commit and push
 
 ```shell
-git config --global alias.acp '!f() { git add . && git commit -m "$1" && git push; }; f'
+git config --global alias.acp '!f() { git add . && git commit -m "$1" && git push; }; f' #doesn't work on powershell
 git acp "some commit message"
 ```
 
